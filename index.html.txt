@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মুসলিম টেলিকম - মোবাইল সার্ভিসিং সেন্টার</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #fff; color: #333; padding: 50px; }
+        h1 { color: #ff007f; font-size: 40px; }
+        p { font-size: 20px; }
+        .btn { background-color: #ff007f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; display: inline-block; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>মুসলিম টেলিকম</h1>
+    <h2>মোবাইল সার্ভিসিং করা হয়</h2>
+    <p>📍 ঠিকানা: মেরাদিয়া বাজার রোড, ব্লক জি, রোড ৫, খিলগাঁও, ঢাকা।</p>
+    <a href="tel:01920719947" class="btn">📞 কল করুন: ০১৯২০৭১৯৯৪৭</a>
+</body>
+</html>
