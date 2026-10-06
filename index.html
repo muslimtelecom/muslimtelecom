@@ -3,18 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>মুসলিম টেলিকম - মোবাইল সার্ভিসিং সেন্টার</title>
+    <title>মুসলিম টেলিকম - প্রফেশনাল মোবাইল সার্ভিসিং</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #fff; color: #333; padding: 50px; }
-        h1 { color: #ff007f; font-size: 40px; }
-        p { font-size: 20px; }
-        .btn { background-color: #ff007f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; display: inline-block; margin-top: 20px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #ffffff; /* ব্যাকগ্রাউন্ড সম্পূর্ণ সাদা */
+            color: #333333;
+            line-height: 1.6;
+        }
+        /* হেডার ডিজাইন */
+        header {
+            background: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff007f;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .shop-name {
+            color: #ff007f; /* মূল নাম গোলাপী */
+            font-size: 42px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .tagline {
+            color: #555555; /* ছোট লেখা কালো/ধূসর */
+            font-size: 22px;
+            font-weight: 600;
+        }
+        /* মেইন কন্টেন্ট এরিয়া */
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .intro-text {
+            font-size: 18px;
+            color: #444444;
+            margin-bottom: 35px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #ff007f;
+        }
+        /* সার্ভিস লিস্ট */
+        .service-list {
+            text-align: left;
+            margin: 30px auto;
+            max-width: 500px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            border: 1px solid #eeeeee;
+        }
+        .service-list h3 {
+            color: #ff007f;
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-bottom: 2px solid #ff007f;
+            padding-bottom: 5px;
+            text-align: center;
+        }
+        .service-item {
+            font-size: 17px;
+            margin: 12px 0;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        .service-item span {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        /* কন্টাক্ট ও অ্যাড্রেস কার্ড */
+        .card {
+            background: #ffffff;
+            border: 2px dashed #ff007f;
+            padding: 30px 20px;
+            border-radius: 15px;
+            margin-top: 40px;
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.05);
+        }
+        .address {
+            font-size: 19px;
+            font-weight: 600;
+            color: #222222;
+            margin-bottom: 20px;
+        }
+        /* বড় কল বাটন */
+        .btn-call {
+            background: linear-gradient(135deg, #ff007f 0%, #ff409f 100%);
+            color: white;
+            padding: 16px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 50px;
+            box-shadow: 0 5px 20px rgba(255, 0, 127, 0.3);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .btn-call:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 0, 127, 0.5);
+        }
+        /* ফুটার */
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background: #111111;
+            color: #ffffff;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <h1>মুসলিম টেলিকম</h1>
-    <h2>মোবাইল সার্ভিসিং করা হয়</h2>
-    <p>📍 ঠিকানা: মেরাদিয়া বাজার রোড, ব্লক জি, রোড ৫, খিলগাঁও, ঢাকা।</p>
-    <a href="tel:01920719947" class="btn">📞 কল করুন: ০১৯২০৭১৯৯৪৭</a>
+
+    <!-- হেডার সেকশন -->
+    <header>
+        <div class="shop-name">মুসলিম টেলিকম</div>
+        <div class="tagline">মোবাইল সার্ভিসিং করা হয়</div>
+    </header>
+
+    <!-- মূল বডি সেকশন -->
+    <div class="container">
+        <p class="intro-text">
+            আমাদের এখানে অত্যন্ত দক্ষ ও অভিজ্ঞ টেকনিশিয়ান দ্বারা নিখুঁতভাবে সকল প্রকার স্মার্টফোন ও ট্যাবলেটের হার্ডওয়্যার ও সফটওয়্যার জনিত সমস্যার দ্রুত সমাধান করা হয়।
+        </p>
+
+        <!-- সেবা সমূহ -->
+        <div class="service-list">
+            <h3>আমাদের বিশেষ সেবাসমূহ:</h3>
+            <div class="service-item"><span>📱</span> ১০০% অরিজিনাল ডিসপ্লে ও ভাঙা গ্লাস পরিবর্তন</div>
+            <div class="service-item"><span>🔋</span> উন্নত মানের অরিজিনাল ব্যাটারি রিপ্লেসমেন্ট</div>
+            <div class="service-item"><span>⚡</span> চার্জিং পোর্ট, স্পিকার ও মাউথ স্পিকার মেরামত</div>
+            <div class="service-item"><span>🛠️</span> মাদারবোর্ডের যেকোনো জটিল আইসি (IC) মেরামত</div>
+        </div>
+
+        <!-- ঠিকানা ও কল সেকশন -->
+        <div class="card">
+            <p class="address">📍 ঠিকানা: মেরাদিয়া বাজার রোড, ব্লক জি, রোড ৫, খিলগাঁও, ঢাকা।</p>
+            <a href="tel:01920719947" class="btn-call">📞 কল করুন: ০১৯২০৭১৯৯৪৭</a>
+        </div>
+    </div>
+
+    <!-- ফুটার -->
+    <footer>
+        <p>&copy; ২০২৬ মুসলিম টেলিকম | সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
 </body>
 </html>
